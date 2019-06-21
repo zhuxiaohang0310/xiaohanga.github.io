@@ -17,20 +17,21 @@
   <meta http-equiv="window-target" content="_top">
   
   
-  <title>Hexo</title>
-  <meta name="description" content="前端开发规范书写一个前端开发文档vue初步认识前端发展历史html  html [1990]—-&amp;gt; html5 [2008.1.12] css  css 1.0 1996  css 2.0 1998  css 3.0 2001 EcmaScript  1997年诞生  2015  EcmaScript 2015  2016  EcmaScript 2016          dart语言">
+  <title>express Node 核心框架 | Hexo</title>
+  <meta name="description" content="express Node 核心框架express是一个功能极简, 完全是由路由和中间件构成的一个web开发框架,是非侵入式的框架 1. 为什么要学习 express ?- express 是 Node 的核心框架  - express 可以帮助我们快速构建 web 服务器 / api 服务器  - express 提供了一个快速生成工具 express-generator     - 快速生成工具">
+<meta name="keywords" content="框架,Node">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/2019/06/20/day02/index.html">
+<meta property="og:title" content="express Node 核心框架">
+<meta property="og:url" content="http://yoursite.com/2019/06/20/express框架/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="前端开发规范书写一个前端开发文档vue初步认识前端发展历史html  html [1990]—-&amp;gt; html5 [2008.1.12] css  css 1.0 1996  css 2.0 1998  css 3.0 2001 EcmaScript  1997年诞生  2015  EcmaScript 2015  2016  EcmaScript 2016          dart语言">
+<meta property="og:description" content="express Node 核心框架express是一个功能极简, 完全是由路由和中间件构成的一个web开发框架,是非侵入式的框架 1. 为什么要学习 express ?- express 是 Node 的核心框架  - express 可以帮助我们快速构建 web 服务器 / api 服务器  - express 提供了一个快速生成工具 express-generator     - 快速生成工具">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-18T07:26:35.000Z">
+<meta property="og:updated_time" content="2019-06-20T08:18:42.046Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="前端开发规范书写一个前端开发文档vue初步认识前端发展历史html  html [1990]—-&amp;gt; html5 [2008.1.12] css  css 1.0 1996  css 2.0 1998  css 3.0 2001 EcmaScript  1997年诞生  2015  EcmaScript 2015  2016  EcmaScript 2016          dart语言">
+<meta name="twitter:title" content="express Node 核心框架">
+<meta name="twitter:description" content="express Node 核心框架express是一个功能极简, 完全是由路由和中间件构成的一个web开发框架,是非侵入式的框架 1. 为什么要学习 express ?- express 是 Node 的核心框架  - express 可以帮助我们快速构建 web 服务器 / api 服务器  - express 提供了一个快速生成工具 express-generator     - 快速生成工具">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://yoursite.com/2019/06/20/day02/index.html">
+  <link rel="canonical" href="http://yoursite.com/2019/06/20/express框架/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -41,6 +42,8 @@
   
   
   
+  
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.css">
   
 </head>
 
@@ -55,7 +58,7 @@
         <a id="avatar" href="https://github.com/cofess" target="_blank">
           <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
         </a>
-        <h2 id="name" class="hidden-xs hidden-sm">航少</h2>
+        <h2 id="name" class="hidden-xs hidden-sm">朱晓航</h2>
         <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer &amp; Designer</h3>
         <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> HangZhou, China</small>
       </div>
@@ -216,9 +219,23 @@
 
     
       
+  <div class="widget">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget-body">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node/">Node</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/框架/">框架</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
 
     
       
+  <div class="widget">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/Node/" style="font-size: 13px;">Node</a> <a href="/tags/框架/" style="font-size: 13px;">框架</a>
+    </div>
+  </div>
+
     
       
   <div class="widget">
@@ -243,10 +260,10 @@
                 
               </p>
               <p class="item-title">
-                <a href="/2019/06/20/day02/" class="title">(no title)</a>
+                <a href="/2019/06/20/express框架/" class="title">express Node 核心框架</a>
               </p>
               <p class="item-date">
-                <time datetime="2019-06-20T03:48:54.025Z" itemprop="datePublished">2019-06-20</time>
+                <time datetime="2019-06-20T07:59:00.884Z" itemprop="datePublished">2019-06-20</time>
               </p>
             </div>
           </li>
@@ -264,65 +281,98 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-day02" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-express框架" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      express Node 核心框架
+    </h1>
+  
+
       
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2019/06/20/day02/" class="article-date">
-	  <time datetime="2019-06-20T03:48:54.025Z" itemprop="datePublished">2019-06-20</time>
+	<a href="/2019/06/20/express框架/" class="article-date">
+	  <time datetime="2019-06-20T07:59:00.884Z" itemprop="datePublished">2019-06-20</time>
 	</a>
 </span>
         
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/Node/">Node</a>, <a class="article-tag-link" href="/tags/框架/">框架</a>
+  </span>
+
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/06/20/day02/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/06/20/express框架/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h2 id="前端开发规范"><a href="#前端开发规范" class="headerlink" title="前端开发规范"></a>前端开发规范</h2><h2 id="书写一个前端开发文档"><a href="#书写一个前端开发文档" class="headerlink" title="书写一个前端开发文档"></a>书写一个前端开发文档</h2><h2 id="vue初步认识"><a href="#vue初步认识" class="headerlink" title="vue初步认识"></a>vue初步认识</h2><h3 id="前端发展历史"><a href="#前端发展历史" class="headerlink" title="前端发展历史"></a>前端发展历史</h3><p>html<br>  html [1990]—-&gt; html5 [2008.1.12]</p>
-<p>css<br>  css 1.0 1996<br>  css 2.0 1998<br>  css 3.0 2001</p>
-<p>EcmaScript<br>  1997年诞生<br>  2015  EcmaScript 2015<br>  2016  EcmaScript 2016          dart语言  vs  javascript</p>
-<p>随着前端项目的逻辑越来越复杂和难以维护，那么前端这边引进了后端的架构思想（ MV* ）</p>
-<p>M  Model      数据层<br>V  View       视图层<br>VM ViewModel  视图模型（ 业务逻辑  VM 是 由  P 改名得来的）<br>P  Presenter  提出者（ Controller 改名得来的 ）<br>C  Controller 控制器 ( 业务逻辑 )</p>
-<p>Backbone.js  MVP    2010.10</p>
-<p>Angular.js( 1.0 )   MVC    2010.10</p>
-<p>Angular.ts ( 2.0 )  MVC -&gt; MVVM 2016 目前已经更新到了 Angular7 ( 也属于angular2.0 版本 )</p>
-<p>Vue 1.0   MVVVM  2014/07</p>
-<p>Vue 2.0   MVVM   2016/09</p>
-<p>React 2012 不太认可前端MVC这种架构思想， 你可以将React单纯看做是MVC中V</p>
-<p>github统计量 （ 国际使用量 ）不代表大陆地区       单位是： K</p>
-<p>angular.js   angular.ts       vue             React  </p>
-<p>  59.6          49.1          142              131</p>
-<p>学习难度： Vue &lt; React &lt; Angular( 2.0 )</p>
-<p>前端流行</p>
-<p>  移动  web    &amp;&amp;  hybird app( 混合app )</p>
-<p>  app<br>    1. native app ( 安卓  ios  java ME)<br>    2. webapp ( 应用在浏览器中的app )<br>    3. Hybird app ( 混合app )<br>       1. webapp 嵌入 第三方原生应用库（ 可以访问原生设备（手机） 的接口权限，比如：照相机 ）</p>
-<h3 id="MV-的图示"><a href="#MV-的图示" class="headerlink" title="MV*的图示"></a>MV*的图示</h3><p>MVC<br>  | C改名为P<br>MVP<br>  | P更像是媒人了（ 连接 M  V 的桥梁）<br>MVVM<br>  | VM 是 由 p改名得来的  VM 和 V 的关系更加的亲密<br>  | “MVVM”:双向数据绑定，View的变动，映射在 ViewModel，反之一样</p>
-<p>注意：<br>    我们以上的这几个框架都是： 单向数据流（ 数据由 父级 流向 子级 ）</p>
-<h2 id="初始Vue-js"><a href="#初始Vue-js" class="headerlink" title="初始Vue.js"></a>初始Vue.js</h2><ol>
-<li>Vue.js是尤雨溪的个人项目</li>
-<li>Vue.js是一个MVVM框架</li>
-<li>Vue.js也是一个javascript的渐进式框架（ 越学越难 ）</li>
-<li>前端还有一个比较知名的MVVM的个人项目： 司徒正美  avonlon.js<h3 id="vue-js安装"><a href="#vue-js安装" class="headerlink" title="vue.js安装"></a>vue.js安装</h3></li>
-<li>script标签引入（ cdn| 下载 ）</li>
-<li>模块化安装  npm/cnpm/yarn  </li>
-</ol>
-<h2 id="文档学习"><a href="#文档学习" class="headerlink" title="文档学习"></a>文档学习</h2><ol>
-<li>先找教程/5分钟快速上手/quick start</li>
-<li>下载安装</li>
-<li>基础demo</li>
-<li>学习api和配置</li>
-</ol>
-<h2 id="作业："><a href="#作业：" class="headerlink" title="作业："></a>作业：</h2><ol>
-<li>vue和其他框架对比（ 整理笔记 ）</li>
-</ol>
+        <h1 id="express-Node-核心框架"><a href="#express-Node-核心框架" class="headerlink" title="express Node 核心框架"></a>express Node 核心框架</h1><p>express是一个功能极简, 完全是由路由和中间件构成的一个web开发框架,是非侵入式的框架</p>
+<h2 id="1-为什么要学习-express"><a href="#1-为什么要学习-express" class="headerlink" title="1. 为什么要学习 express ?"></a>1. 为什么要学习 express ?</h2><pre><code>- express 是 Node 的核心框架
+
+- express 可以帮助我们快速构建 web 服务器 / api 服务器
+
+- express 提供了一个快速生成工具 express-generator
+
+   - 快速生成工具： 帮助我们快速创建一个项目的工具</code></pre><h2 id="2-安装方式"><a href="#2-安装方式" class="headerlink" title="2. 安装方式"></a>2. 安装方式</h2><h3 id="1-全局安装"><a href="#1-全局安装" class="headerlink" title="1. 全局安装"></a>1. 全局安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> npm i express-generator -g  </span><br><span class="line">or </span><br><span class="line"><span class="meta">$</span> yarn add express-generator -g</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-npx-安装"><a href="#2-npx-安装" class="headerlink" title="2. npx 安装"></a>2. npx 安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(如果npm版本在 5.2+，那可以不用全局，用npx)</span><br><span class="line"></span><br><span class="line">$ npx express -e express_demo</span><br><span class="line"></span><br><span class="line">	-e : 指的是我们使用一个叫 ejs 的模板（ejs.js 可以兼容html标签, 可以在标签中写 js ）</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-项目目录"><a href="#3-项目目录" class="headerlink" title="3. 项目目录"></a>3. 项目目录</h2><ul>
+<li><p>bin </p>
+<ul>
+<li>www 启动了一个静态服务器 （ web服务器 ）</li>
+</ul>
+</li>
+<li><p>node_modules 这个项目的依赖包</p>
+</li>
+<li><p>public 静态资源文件 ( html，css，images)</p>
+</li>
+<li><p>routes 路由文件夹</p>
+</li>
+<li><p>view</p>
+<ul>
+<li>xxx.ejs （ 项目模板 )</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>app.js  ( 这个项目的入口文件 )</li>
+</ul>
+<h2 id="4-app-js-文件代码解读"><a href="#4-app-js-文件代码解读" class="headerlink" title="4. app.js 文件代码解读"></a>4. app.js 文件代码解读</h2><pre><code>- app对象的功能
+  1.  通过app.use来使用具有特定功能的函数 ( 又叫中间件 )
+- 中间件分类
+  1.  应用中间件 （ cors )
+  2.  路由中间件 app.get( &apos;/&apos; , (req, res, next ) =&gt; { } ) 
+  3.  错误处理中间件 function( err, req, res, next ) { }</code></pre><h2 id="5-express-创建-api-服务器-（-创建接口-）"><a href="#5-express-创建-api-服务器-（-创建接口-）" class="headerlink" title="5. express 创建 api 服务器 （ 创建接口 ）"></a>5. express 创建 api 服务器 （ 创建接口 ）</h2><ul>
+<li>api  服务器是给前端提供接口数据</li>
+<li>api 服务器需要使用的给测试工具来测试，不能用浏览器展示</li>
+<li>注意： 后端个前端发送的数据类型是 JSON 字符串，前端需要 JSON.parse() 转换成对象</li>
+</ul>
+<h2 id="6-restful-api-规则"><a href="#6-restful-api-规则" class="headerlink" title="6. restful api 规则"></a>6. restful api 规则</h2><p>​    restful aip 规则 是一个暴露接口的规则 ，实现是一个接口使用不同的数据请求方式来实现不同的功能</p>
+<h2 id="7-数据请求格式"><a href="#7-数据请求格式" class="headerlink" title="7. 数据请求格式"></a>7. 数据请求格式</h2><h3 id="1-get"><a href="#1-get" class="headerlink" title="1. get"></a>1. get</h3><ul>
+<li><p>发送数据时，携带的参数时，形式是 Query string Parameters</p>
+</li>
+<li><p>后端 req.query 获取前端传来的数据</p>
+<h3 id="2-post"><a href="#2-post" class="headerlink" title="2. post"></a>2. post</h3></li>
+<li><p>发送数据时，携带的参数时，形式是 Form Data</p>
+</li>
+<li><p>前端 req.body 获取前端传来的数据</p>
+</li>
+</ul>
+<h2 id="8-ecj-模板"><a href="#8-ecj-模板" class="headerlink" title="8. ecj 模板"></a>8. ecj 模板</h2><p><a href="https://ejs.bootcss.com/" target="_blank" rel="noopener">ecj 官网</a></p>
+<p>EJS 是一套简单的模板语言，帮你利用 JavaScript 代码生成 HTML 页面。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ejs模板语法:</span><br><span class="line"></span><br><span class="line">    &lt;% jsCode %&gt;			执行正常js代码</span><br><span class="line">    &lt;% =data %&gt;				转移输出</span><br><span class="line">    &lt;% -&quot;data&quot; %&gt;			非转义输出</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -332,7 +382,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://yoursite.com/2019/06/20/day02/" title="" target="_blank" rel="external">http://yoursite.com/2019/06/20/day02/</a>
+      <a href="http://yoursite.com/2019/06/20/express框架/" title="express Node 核心框架" target="_blank" rel="external">http://yoursite.com/2019/06/20/express框架/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -351,7 +401,7 @@
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/cofess" target="_blank"><span class="text-dark">航少</span><small class="ml-1x">Web Developer &amp; Designer</small></a></h3>
+        <h3 class="media-heading"><a href="https://github.com/cofess" target="_blank"><span class="text-dark">朱晓航</span><small class="ml-1x">Web Developer &amp; Designer</small></a></h3>
         <div>个人简介。</div>
       </div>
     </figure>
@@ -365,7 +415,7 @@
     
   <section id="comments">
   	
-      <div id="vcomments"></div>
+           
     
   </section>
 
@@ -498,29 +548,23 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
    
     
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"> -->
+  <script src="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js"></script>
   <script type="text/javascript">
-  var GUEST = ['nick', 'mail', 'link'];
-  var meta = 'nick,mail,link';
-  meta = meta.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#vcomments',
-    verify: false,
-    notify: false,
-    appId: '',
-    appKey: '',
-    placeholder: 'Just go go',
-    avatar: 'mm',
-    meta: meta,
-    pageSize: '10' || 10,
-    visitor: false
-  });
+  var gitalk = new Gitalk({
+    clientID: '7b5dfa8339c2d57fbe06',
+    clientSecret: '06e66fc52989168456179d94dbb3af572a0fbce4',
+    repo: 'zhuxiaohang0310',
+    owner: 'zhuxiaohang0310',
+    admin: ['zhuxiaohang0310'],
+    id: md5(location.pathname),
+    distractionFreeMode: true
+  })
+  gitalk.render('comments')
   </script>
 
-     
+      
 
 
 
